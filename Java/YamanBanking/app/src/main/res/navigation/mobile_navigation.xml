@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.com.yaman.yamanbanking.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+<!--        android:label="@string/menu_home"-->
+<!--        tools:layout="@layout/fragment_home">-->
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="br.com.yaman.yamanbanking.ui.transferencia.TransferenciaFragment"
+        tools:layout="@layout/fragment_extrato">
+<!--        android:label="@string/home_second"-->
+<!--        tools:layout="@layout/fragment_extrato">-->
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_extrato"
+        android:name="br.com.yaman.yamanbanking.ui.extrato.ExtratoFragment"
+        tools:layout="@layout/fragment_extrato" />
+
+    <!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_extrato" />-->
+
+    <fragment
+        android:id="@+id/nav_transferencia"
+        android:name="br.com.yaman.yamanbanking.ui.transferencia.TransferenciaFragment"
+        tools:layout="@layout/fragment_transferencia" />
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_transferencia" />-->
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="br.com.yaman.yamanbanking.ui.perfil.PerfilFragment"
+        tools:layout="@layout/fragment_perfil" />
+    <!--        android:label="@string/menu_slideshow"-->
+    <!--        tools:layout="@layout/fragment_transferencia" />-->
+    <fragment
+        android:id="@+id/nav_sair"
+        android:label="sair"
+        android:name="br.com.yaman.yamanbanking.ui.perfil.PerfilFragment" />
+</navigation>

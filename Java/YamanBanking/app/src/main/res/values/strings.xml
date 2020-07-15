@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Yaman Banking</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="acessar_conta">Acessar Conta</string>
+    <string name="image_descrip">YAMAN</string>
+    <string name="login_instruction">Faça login para acessar sua conta</string>
+    <string name="agencia">Agencia</string>
+    <string name="conta">Conta</string>
+    <string name="senha">Senha</string>
+    <string name="esqueci_senha">Esqueci minha senha</string>
+    <string name="salvar_dados">Salvar dados</string>
+    <string name="entrar">Entrar</string>
+    <string name="saldotext_cc">Saldo em conta corrente</string>
+    <string name="saldotext_cp">Saldo em conta poupança</string>
+    <string name="saldo_cc">R$ -20,00</string>
+    <string name="saldo_cp">R$ 15,30</string>
+    <string name="bemvindo_yaman">Bem Vindo ao Yaman Banking</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="saldo_att">Saldo Atualizado com data de <b>01/01/0001</b> como referência</string>
+    <string name="saldo_att2">Ultima tranferência em <b>01/01/0001</b> no valor de <b>R$ 5.000,00</b>.</string>
+    <string name="saldo_transf">Seu Saldo: <b>45,00</b></string>
+    <string name="cc">Conta Corrente</string>
+    <string name="cp">Conta Poupança</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
